@@ -141,7 +141,7 @@ function sumarLikesDeUsuario (usuario) {
   for(var i = 0; i < usuario.posts.length ; i ++){
    suma = suma + usuario.posts[i].likes;
   }
-  return suma;
+  return suma
 }
 
 function agregarMetodoCalculoDescuento (producto) {
